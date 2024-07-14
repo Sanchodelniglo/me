@@ -1,20 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-  <title>Landing Page</title>
-</head>
-<body class="bg-gray-100 flex items-center justify-center h-screen">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <div class="max-w-md bg-white rounded-lg shadow-lg p-6 space-y-4 text-center">
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="style.css" rel="stylesheet">
 
-    <img src="your-photo.jpg" alt="Your Photo" class="rounded-full w-48 h-48 mx-auto" />
-    
-    <h1 class="text-3xl font-bold text-gray-800">ME</h1>
-    
-  </div>
-  <script src="https://cdn.tailwindcss.com"></script>
-</body>
+    <title>Me! - Romain Grossard</title>
+  </head>
+  <body
+    class="h-screen relative">
+    <div class="scrolling-text-wrapper" style="top: 0;">
+      <div class="scrolling-text scroll-right-to-left">
+        ME! ME! ME! ME! ME! ME! ME! ME! ME! ME! ME! ME! ME!
+      </div>
+    </div>
+    <div class="scrolling-text-wrapper" style="top: 25vh;">
+      <div class="scrolling-text scroll-left-to-right">
+        ME! ME! ME! ME! ME! ME! ME! ME! ME! ME! ME! ME! ME!
+      </div>
+    </div>
+    <div class="scrolling-text-wrapper" style="top: 50vh;">
+      <div class="scrolling-text scroll-right-to-left">
+        ME! ME! ME! ME! ME! ME! ME! ME! ME! ME! ME! ME! ME!
+      </div>
+    </div>
+    <div class="scrolling-text-wrapper" style="top: 75vh;">
+      <div class="scrolling-text scroll-left-to-right">
+        ME! ME! ME! ME! ME! ME! ME! ME! ME! ME! ME! ME! ME!
+      </div>
+    </div>
+    <div class="centered-text flex flex-col">
+      <div class="image-wrapper mask mask-hexagon">
+        <img class="" src="me.png" alt="Me" width="400"/>
+      </div>
+      <br>
+      <div class="flex items-center justify-evenly">
+        <a href="https://www.linkedin.com/in/romain-g-4a45a0165/" target="_blank">
+          <img src="linkedin.png" alt="linkedin" width="50">
+        </a>
+        <a href="https://github.com/Sanchodelniglo" target="_blank">
+          <img src="github.png" alt="github" width="50">
+        </a>
+      </div>
+    </div>
+
+  </body>
 </html>
